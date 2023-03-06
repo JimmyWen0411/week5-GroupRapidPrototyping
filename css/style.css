@@ -10,6 +10,12 @@ html,body {
   overflow: hidden;
 }
 
+@font-face
+{
+    font-family: 'Stretch Pro';
+    src: url('../resource/StretchPro.otf');
+} 
+
 .container {
   width: 100%;
   height: 500%;
@@ -27,15 +33,15 @@ html,body {
 }
 
 .section1 {
-  background-color: #262525;
+  background-color: #000000;
 }
 
 .section2 {
-  background-color: #ec0909;
+  background-color: #000000;
 }
 
 .section3 {
-  background-color: #00f683;
+  background-color: #000000;
 }
 
 .section4 {
@@ -43,7 +49,7 @@ html,body {
 }
 
 .section5 {
-  background-color: #ff00ff;
+  background-color: #000000;
 }
 
 .controls {
@@ -58,7 +64,7 @@ html,body {
   width: 18px;
   height: 18px;
   text-align: center;
-  background: #000;
+  background: rgb(59, 59, 59);
   color: #fff;
   border-radius: 50%;
 }
@@ -81,22 +87,62 @@ html,body {
   align-items: center;
 }
 
-h1{
+.p1 {
   color:azure;
-  font-size: 6rem;
+  font-size: 3rem;
   font-family: Stretch Pro;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   height: 100%;
   line-height:150%;
-
 }
-h5{
-  color:#AAAAAA;
-  font-weight: 400;
+
+.p2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height:60px;
+  width: 100%;
+  height: 100%;
+}
+
+.p3 {
+  color:azure;
+  font-size: 1rem;
+  font-family: Stretch Pro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  line-height:150%;
+}
+
+.p4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.p5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+video{
+width: 100%;
+height: 100%;
+background-size: cover;
+}
+
+h5{
+  color:#772c2c;
+  font-weight: 400;
+  vertical-align: text-top;
 }
